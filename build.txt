@@ -1,0 +1,3 @@
+displayName = Sonic the NPC
+author = MACJ02
+version = 0.1

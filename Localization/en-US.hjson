@@ -1,0 +1,50 @@
+Mods: {
+	SonicNPC: {
+		NPCs: {
+			Hedgehog: {
+				DisplayName: Hedgehog
+
+				TownNPCMood: {
+					Content: C'mon, isn't anything interesting happening?
+					NoHome: I'm used to not having a home, so don't worry about me.
+					FarFromHome: Man, all this adventuring made me forget where my home is.
+					LoveSpace: Ahh, this place is huge! Pretty nice place to live, ey?
+					DislikeCrowded: Man, this place is kinda crowded, don'tcha think?
+					HateCrowded: Alright, this is getting ridiculous! I can't hear my own thoughts with all this noise!
+					LikeBiome: Ahhhh, {BiomeName}, a very chill place to stay.
+					DislikeBiome: Whew... This place is hot, don't ya think...?
+					HateBiome: As much as I like nature, this place sucks!
+					LoveNPC: I like {NPCName}, she's very kind with animals, including me, of course!
+					LikeNPC: Wow, {NPCName} really likes nature, don't you think?
+					DislikeNPC: Hey, could you tell {NPCName} to stop trying to pull one of my quills?
+					HateNPC: Man, could {NPCName} just stop blowing things up?! It's irritating!
+					LikeNPC_Princess: Heheh, {NPCName} is so nice and adorable! It reminds me of a little rabbit I know...
+					Princess_LovesNPC: "{NPCName} is so fast and amazing, I love him!"
+				}
+
+				Census.SpawnCondition: Defeat the Eye of Cthulhu. Lives in the Forest.
+				DeathMessage: "{NPCName} lost a life."
+			}
+		}
+
+		Bestiary: {
+			Hedgehog_1: Hailing from the mysterious Christmas Island, Sonic's the name, speed's his game.
+			Hedgehog_2: A small blue hedgehog with red sneakers and white gloves who can run at the speed of sound.
+		}
+
+		Dialogue: {
+			Hedgehog: {
+				ShimmerDialogue1: ☺
+				ShimmerDialogue2: !
+				ShimmerDialogue3: ♫
+				StandardDialogue1: Yo.
+				StandardDialogue2: Wanna see me run laps around the world? Wanna see me do it again?
+				StandardDialogue3: What's up, man?
+				StandardDialogue4: Bet you're pretty strong, but not as much as me!
+				UndergroundDialogue: Gee, it's kinda dark here... Did ya bring a light?
+				DownedMoonLord: Well, damn, looks like you did it!  Nice job, man!
+				FakerDialogue: Hey, there can only be one Sonic, and that's me!
+			}
+		}
+	}
+}
